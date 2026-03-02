@@ -1,3 +1,26 @@
+## How to run
+
+Follow these steps to set up the environment, run the code, and verify it works:
+
+1. **Set up the environment**  
+   - Activate your virtual environment:
+     - Windows: `source .venv/Scripts/activate`
+     - Mac/Linux: `source .venv/bin/activate`
+   - Install dependencies: `pip install -r requirements-prework.txt`
+
+2. **Run the code**  
+   - From the root of the project, run:  
+     `python scripts/sanity.py`
+
+3. **Confirm success**  
+   - Check the output to ensure it prints:
+     - Python version
+     - Platform information
+     - Current working directory
+     - Installed packages from requirements
+   - If all these are displayed correctly, the script works.
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/g7vj6YXc)
 # AI.SPIRE Pre-Work — Phase 3: Engineering Practices
 
