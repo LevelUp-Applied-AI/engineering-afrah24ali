@@ -22,7 +22,7 @@ def celsius_to_fahrenheit(celsius):
 
     Formula: (celsius × 9/5) + 32
     """
-    return celsius * 9 / 5+ 32  # bug: missing + 32
+    return celsius * 9 / 5 + 32 # bug: missing + 32
 
 
 def count_vowels(s):
